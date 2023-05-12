@@ -29,11 +29,6 @@
         private void InitializeComponent()
         {
             this.dtgCSV = new System.Windows.Forms.DataGridView();
-            this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column5 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.btnAbrir = new System.Windows.Forms.Button();
             this.btnGuardar = new System.Windows.Forms.Button();
             this.btnBorrar = new System.Windows.Forms.Button();
@@ -41,59 +36,25 @@
             this.lblCSV = new System.Windows.Forms.Label();
             this.btnCrearColumna = new System.Windows.Forms.Button();
             this.btnBorrarColuma = new System.Windows.Forms.Button();
+            this.txtNumeroColumna = new System.Windows.Forms.TextBox();
+            this.lblNumeroColumna = new System.Windows.Forms.Label();
+            this.lblNombreColumna = new System.Windows.Forms.Label();
+            this.txtNombreColumna = new System.Windows.Forms.TextBox();
+            this.lblBorrarFila = new System.Windows.Forms.Label();
+            this.txtBorrarFila = new System.Windows.Forms.TextBox();
+            this.btnBorrarFila = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dtgCSV)).BeginInit();
             this.SuspendLayout();
             // 
             // dtgCSV
             // 
             this.dtgCSV.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dtgCSV.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.Column1,
-            this.Column2,
-            this.Column3,
-            this.Column4,
-            this.Column5});
             this.dtgCSV.Location = new System.Drawing.Point(34, 12);
             this.dtgCSV.Name = "dtgCSV";
             this.dtgCSV.RowHeadersWidth = 51;
             this.dtgCSV.RowTemplate.Height = 24;
             this.dtgCSV.Size = new System.Drawing.Size(676, 321);
             this.dtgCSV.TabIndex = 0;
-            // 
-            // Column1
-            // 
-            this.Column1.HeaderText = "Personas";
-            this.Column1.MinimumWidth = 6;
-            this.Column1.Name = "Column1";
-            this.Column1.Width = 125;
-            // 
-            // Column2
-            // 
-            this.Column2.HeaderText = "Column2";
-            this.Column2.MinimumWidth = 6;
-            this.Column2.Name = "Column2";
-            this.Column2.Width = 125;
-            // 
-            // Column3
-            // 
-            this.Column3.HeaderText = "Column3";
-            this.Column3.MinimumWidth = 6;
-            this.Column3.Name = "Column3";
-            this.Column3.Width = 125;
-            // 
-            // Column4
-            // 
-            this.Column4.HeaderText = "Column4";
-            this.Column4.MinimumWidth = 6;
-            this.Column4.Name = "Column4";
-            this.Column4.Width = 125;
-            // 
-            // Column5
-            // 
-            this.Column5.HeaderText = "Column5";
-            this.Column5.MinimumWidth = 6;
-            this.Column5.Name = "Column5";
-            this.Column5.Width = 125;
             // 
             // btnAbrir
             // 
@@ -123,6 +84,7 @@
             this.btnBorrar.TabIndex = 3;
             this.btnBorrar.Text = "Borrar";
             this.btnBorrar.UseVisualStyleBackColor = true;
+            this.btnBorrar.Click += new System.EventHandler(this.btnBorrar_Click);
             // 
             // txtSeparador
             // 
@@ -145,16 +107,17 @@
             // 
             // btnCrearColumna
             // 
-            this.btnCrearColumna.Location = new System.Drawing.Point(739, 12);
+            this.btnCrearColumna.Location = new System.Drawing.Point(763, 88);
             this.btnCrearColumna.Name = "btnCrearColumna";
             this.btnCrearColumna.Size = new System.Drawing.Size(114, 48);
             this.btnCrearColumna.TabIndex = 6;
             this.btnCrearColumna.Text = "Crear Columna";
             this.btnCrearColumna.UseVisualStyleBackColor = true;
+            this.btnCrearColumna.Click += new System.EventHandler(this.btnCrearColumna_Click);
             // 
             // btnBorrarColuma
             // 
-            this.btnBorrarColuma.Location = new System.Drawing.Point(739, 95);
+            this.btnBorrarColuma.Location = new System.Drawing.Point(763, 225);
             this.btnBorrarColuma.Name = "btnBorrarColuma";
             this.btnBorrarColuma.Size = new System.Drawing.Size(114, 48);
             this.btnBorrarColuma.TabIndex = 7;
@@ -162,11 +125,76 @@
             this.btnBorrarColuma.UseVisualStyleBackColor = true;
             this.btnBorrarColuma.Click += new System.EventHandler(this.btnBorrarColuma_Click);
             // 
+            // txtNumeroColumna
+            // 
+            this.txtNumeroColumna.Location = new System.Drawing.Point(763, 188);
+            this.txtNumeroColumna.Name = "txtNumeroColumna";
+            this.txtNumeroColumna.Size = new System.Drawing.Size(114, 22);
+            this.txtNumeroColumna.TabIndex = 8;
+            // 
+            // lblNumeroColumna
+            // 
+            this.lblNumeroColumna.AutoSize = true;
+            this.lblNumeroColumna.Location = new System.Drawing.Point(735, 158);
+            this.lblNumeroColumna.Name = "lblNumeroColumna";
+            this.lblNumeroColumna.Size = new System.Drawing.Size(178, 16);
+            this.lblNumeroColumna.TabIndex = 9;
+            this.lblNumeroColumna.Text = "Numero de columna a borrar";
+            // 
+            // lblNombreColumna
+            // 
+            this.lblNombreColumna.AutoSize = true;
+            this.lblNombreColumna.Location = new System.Drawing.Point(760, 29);
+            this.lblNombreColumna.Name = "lblNombreColumna";
+            this.lblNombreColumna.Size = new System.Drawing.Size(143, 16);
+            this.lblNombreColumna.TabIndex = 11;
+            this.lblNombreColumna.Text = "Nombre de la columna";
+            // 
+            // txtNombreColumna
+            // 
+            this.txtNombreColumna.Location = new System.Drawing.Point(763, 60);
+            this.txtNombreColumna.Name = "txtNombreColumna";
+            this.txtNombreColumna.Size = new System.Drawing.Size(114, 22);
+            this.txtNombreColumna.TabIndex = 10;
+            // 
+            // lblBorrarFila
+            // 
+            this.lblBorrarFila.AutoSize = true;
+            this.lblBorrarFila.Location = new System.Drawing.Point(754, 291);
+            this.lblBorrarFila.Name = "lblBorrarFila";
+            this.lblBorrarFila.Size = new System.Drawing.Size(149, 16);
+            this.lblBorrarFila.TabIndex = 14;
+            this.lblBorrarFila.Text = "Numero de Fila a borrar";
+            // 
+            // txtBorrarFila
+            // 
+            this.txtBorrarFila.Location = new System.Drawing.Point(763, 321);
+            this.txtBorrarFila.Name = "txtBorrarFila";
+            this.txtBorrarFila.Size = new System.Drawing.Size(114, 22);
+            this.txtBorrarFila.TabIndex = 13;
+            // 
+            // btnBorrarFila
+            // 
+            this.btnBorrarFila.Location = new System.Drawing.Point(763, 358);
+            this.btnBorrarFila.Name = "btnBorrarFila";
+            this.btnBorrarFila.Size = new System.Drawing.Size(114, 48);
+            this.btnBorrarFila.TabIndex = 12;
+            this.btnBorrarFila.Text = "Borrar Columna";
+            this.btnBorrarFila.UseVisualStyleBackColor = true;
+            this.btnBorrarFila.Click += new System.EventHandler(this.btnBorrarFila_Click);
+            // 
             // fmrCSV
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(881, 450);
+            this.ClientSize = new System.Drawing.Size(935, 450);
+            this.Controls.Add(this.lblBorrarFila);
+            this.Controls.Add(this.txtBorrarFila);
+            this.Controls.Add(this.btnBorrarFila);
+            this.Controls.Add(this.lblNombreColumna);
+            this.Controls.Add(this.txtNombreColumna);
+            this.Controls.Add(this.lblNumeroColumna);
+            this.Controls.Add(this.txtNumeroColumna);
             this.Controls.Add(this.btnBorrarColuma);
             this.Controls.Add(this.btnCrearColumna);
             this.Controls.Add(this.lblCSV);
@@ -191,13 +219,15 @@
         private System.Windows.Forms.Button btnBorrar;
         private System.Windows.Forms.TextBox txtSeparador;
         private System.Windows.Forms.Label lblCSV;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column1;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column2;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column3;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column4;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column5;
         private System.Windows.Forms.Button btnCrearColumna;
         private System.Windows.Forms.Button btnBorrarColuma;
+        private System.Windows.Forms.TextBox txtNumeroColumna;
+        private System.Windows.Forms.Label lblNumeroColumna;
+        private System.Windows.Forms.Label lblNombreColumna;
+        private System.Windows.Forms.TextBox txtNombreColumna;
+        private System.Windows.Forms.Label lblBorrarFila;
+        private System.Windows.Forms.TextBox txtBorrarFila;
+        private System.Windows.Forms.Button btnBorrarFila;
     }
 }
 

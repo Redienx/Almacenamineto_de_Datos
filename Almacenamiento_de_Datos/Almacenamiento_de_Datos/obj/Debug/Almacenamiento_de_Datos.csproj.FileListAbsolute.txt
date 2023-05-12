@@ -9,3 +9,14 @@ C:\Programacion\Ejercicios C#\Almacenamiento_de_Datos\Almacenamiento_de_Datos\ob
 C:\Programacion\Ejercicios C#\Almacenamiento_de_Datos\Almacenamiento_de_Datos\obj\Debug\Almacenamiento_de_Datos.csproj.CoreCompileInputs.cache
 C:\Programacion\Ejercicios C#\Almacenamiento_de_Datos\Almacenamiento_de_Datos\obj\Debug\Almacenamiento_de_Datos.exe
 C:\Programacion\Ejercicios C#\Almacenamiento_de_Datos\Almacenamiento_de_Datos\obj\Debug\Almacenamiento_de_Datos.pdb
+C:\Users\Julian\source\repos\Almacenamineto_de_Datos\Almacenamiento_de_Datos\Almacenamiento_de_Datos\bin\Debug\Almacenamiento_de_Datos.exe.config
+C:\Users\Julian\source\repos\Almacenamineto_de_Datos\Almacenamiento_de_Datos\Almacenamiento_de_Datos\bin\Debug\Almacenamiento_de_Datos.exe
+C:\Users\Julian\source\repos\Almacenamineto_de_Datos\Almacenamiento_de_Datos\Almacenamiento_de_Datos\bin\Debug\Almacenamiento_de_Datos.pdb
+C:\Users\Julian\source\repos\Almacenamineto_de_Datos\Almacenamiento_de_Datos\Almacenamiento_de_Datos\obj\Debug\Almacenamiento_de_Datos.csproj.AssemblyReference.cache
+C:\Users\Julian\source\repos\Almacenamineto_de_Datos\Almacenamiento_de_Datos\Almacenamiento_de_Datos\obj\Debug\Almacenamiento_de_Datos.csproj.SuggestedBindingRedirects.cache
+C:\Users\Julian\source\repos\Almacenamineto_de_Datos\Almacenamiento_de_Datos\Almacenamiento_de_Datos\obj\Debug\Almacenamiento_de_Datos.fmrCSV.resources
+C:\Users\Julian\source\repos\Almacenamineto_de_Datos\Almacenamiento_de_Datos\Almacenamiento_de_Datos\obj\Debug\Almacenamiento_de_Datos.Properties.Resources.resources
+C:\Users\Julian\source\repos\Almacenamineto_de_Datos\Almacenamiento_de_Datos\Almacenamiento_de_Datos\obj\Debug\Almacenamiento_de_Datos.csproj.GenerateResource.cache
+C:\Users\Julian\source\repos\Almacenamineto_de_Datos\Almacenamiento_de_Datos\Almacenamiento_de_Datos\obj\Debug\Almacenamiento_de_Datos.csproj.CoreCompileInputs.cache
+C:\Users\Julian\source\repos\Almacenamineto_de_Datos\Almacenamiento_de_Datos\Almacenamiento_de_Datos\obj\Debug\Almacenamiento_de_Datos.exe
+C:\Users\Julian\source\repos\Almacenamineto_de_Datos\Almacenamiento_de_Datos\Almacenamiento_de_Datos\obj\Debug\Almacenamiento_de_Datos.pdb
