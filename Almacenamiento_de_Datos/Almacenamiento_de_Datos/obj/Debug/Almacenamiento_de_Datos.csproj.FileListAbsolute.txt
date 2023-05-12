@@ -1,0 +1,11 @@
+C:\Programacion\Ejercicios C#\Almacenamiento_de_Datos\Almacenamiento_de_Datos\bin\Debug\Almacenamiento_de_Datos.exe.config
+C:\Programacion\Ejercicios C#\Almacenamiento_de_Datos\Almacenamiento_de_Datos\bin\Debug\Almacenamiento_de_Datos.exe
+C:\Programacion\Ejercicios C#\Almacenamiento_de_Datos\Almacenamiento_de_Datos\bin\Debug\Almacenamiento_de_Datos.pdb
+C:\Programacion\Ejercicios C#\Almacenamiento_de_Datos\Almacenamiento_de_Datos\obj\Debug\Almacenamiento_de_Datos.csproj.AssemblyReference.cache
+C:\Programacion\Ejercicios C#\Almacenamiento_de_Datos\Almacenamiento_de_Datos\obj\Debug\Almacenamiento_de_Datos.csproj.SuggestedBindingRedirects.cache
+C:\Programacion\Ejercicios C#\Almacenamiento_de_Datos\Almacenamiento_de_Datos\obj\Debug\Almacenamiento_de_Datos.fmrCSV.resources
+C:\Programacion\Ejercicios C#\Almacenamiento_de_Datos\Almacenamiento_de_Datos\obj\Debug\Almacenamiento_de_Datos.Properties.Resources.resources
+C:\Programacion\Ejercicios C#\Almacenamiento_de_Datos\Almacenamiento_de_Datos\obj\Debug\Almacenamiento_de_Datos.csproj.GenerateResource.cache
+C:\Programacion\Ejercicios C#\Almacenamiento_de_Datos\Almacenamiento_de_Datos\obj\Debug\Almacenamiento_de_Datos.csproj.CoreCompileInputs.cache
+C:\Programacion\Ejercicios C#\Almacenamiento_de_Datos\Almacenamiento_de_Datos\obj\Debug\Almacenamiento_de_Datos.exe
+C:\Programacion\Ejercicios C#\Almacenamiento_de_Datos\Almacenamiento_de_Datos\obj\Debug\Almacenamiento_de_Datos.pdb
