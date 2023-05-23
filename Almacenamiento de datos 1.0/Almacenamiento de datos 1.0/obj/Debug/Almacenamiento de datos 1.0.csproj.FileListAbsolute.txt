@@ -1,0 +1,15 @@
+C:\Users\cobra\OneDrive\Escritorio\Universidad\Herramientas de programación\Almacenamiento de datos 1.0\Almacenamiento de datos 1.0\bin\Debug\Almacenamiento de datos 1.0.exe.config
+C:\Users\cobra\OneDrive\Escritorio\Universidad\Herramientas de programación\Almacenamiento de datos 1.0\Almacenamiento de datos 1.0\bin\Debug\Almacenamiento de datos 1.0.exe
+C:\Users\cobra\OneDrive\Escritorio\Universidad\Herramientas de programación\Almacenamiento de datos 1.0\Almacenamiento de datos 1.0\bin\Debug\Almacenamiento de datos 1.0.pdb
+C:\Users\cobra\OneDrive\Escritorio\Universidad\Herramientas de programación\Almacenamiento de datos 1.0\Almacenamiento de datos 1.0\bin\Debug\SQLite.NET.dll
+C:\Users\cobra\OneDrive\Escritorio\Universidad\Herramientas de programación\Almacenamiento de datos 1.0\Almacenamiento de datos 1.0\obj\Debug\Almacenamiento de datos 1.0.csproj.AssemblyReference.cache
+C:\Users\cobra\OneDrive\Escritorio\Universidad\Herramientas de programación\Almacenamiento de datos 1.0\Almacenamiento de datos 1.0\obj\Debug\Almacenamiento de datos 1.0.csproj.SuggestedBindingRedirects.cache
+C:\Users\cobra\OneDrive\Escritorio\Universidad\Herramientas de programación\Almacenamiento de datos 1.0\Almacenamiento de datos 1.0\obj\Debug\Almacenamiento_de_datos_1._0.Properties.Resources.resources
+C:\Users\cobra\OneDrive\Escritorio\Universidad\Herramientas de programación\Almacenamiento de datos 1.0\Almacenamiento de datos 1.0\obj\Debug\Almacenamiento_de_datos_1._0.wLogin.resources
+C:\Users\cobra\OneDrive\Escritorio\Universidad\Herramientas de programación\Almacenamiento de datos 1.0\Almacenamiento de datos 1.0\obj\Debug\Almacenamiento de datos 1.0.csproj.GenerateResource.cache
+C:\Users\cobra\OneDrive\Escritorio\Universidad\Herramientas de programación\Almacenamiento de datos 1.0\Almacenamiento de datos 1.0\obj\Debug\Almacenamiento de datos 1.0.csproj.CoreCompileInputs.cache
+C:\Users\cobra\OneDrive\Escritorio\Universidad\Herramientas de programación\Almacenamiento de datos 1.0\Almacenamiento de datos 1.0\obj\Debug\Almacenamiento de datos 1.0.csproj.CopyComplete
+C:\Users\cobra\OneDrive\Escritorio\Universidad\Herramientas de programación\Almacenamiento de datos 1.0\Almacenamiento de datos 1.0\obj\Debug\Almacenamiento de datos 1.0.exe
+C:\Users\cobra\OneDrive\Escritorio\Universidad\Herramientas de programación\Almacenamiento de datos 1.0\Almacenamiento de datos 1.0\obj\Debug\Almacenamiento de datos 1.0.pdb
+C:\Users\cobra\OneDrive\Escritorio\Universidad\Herramientas de programación\Almacenamiento de datos 1.0\Almacenamiento de datos 1.0\obj\Debug\Almacenamiento_de_datos_1._0.wRegistroCliente.resources
+C:\Users\cobra\OneDrive\Escritorio\Universidad\Herramientas de programación\Almacenamiento de datos 1.0\Almacenamiento de datos 1.0\obj\Debug\Almacenamiento_de_datos_1._0.wPrueba.resources
